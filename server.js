@@ -21,11 +21,11 @@ app.post('/api/palindrome', function(req, res) {
     
     if(content == inverseContent) {
     	var responseStatus = 200;
-    	var responseMessage = 'Is a palindrome';
+    	var responseMessage = 'UAU, that is right! We have a palindrome! :)';
     	res.writeHead(responseStatus, {"Content-Type": "application/json"});
     }else{
     	var responseStatus = 400;
-    	var responseMessage = 'Is not a palindrome';
+    	var responseMessage = 'Bad choice, this is not a palindrome :(';
     	res.writeHead(responseStatus, {"Content-Type": "application/json"});
     }
 

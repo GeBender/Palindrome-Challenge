@@ -4,7 +4,7 @@
 ## Setup
 
 - Clone this repo
-- type this command:
+- type this command inside your app folder:
 
 ```
 $ node server.js 
