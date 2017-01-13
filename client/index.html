@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Palindrome Chalenge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+  	      <a class="navbar-brand" href="#">The Palindrome Challenge!</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+	  <h3>Lets check out some words to see if it's a palindrome or not. <small>Just type anything and click the "Go Palindrome!" button</small></h3>
+        <form method="POST"  id="palindrome-form">
+          <div class="form-group">
+            <label for="palindromeInput">something to be checked</label>
+              <input type="text" id="palindromeInput" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Go Palindrome!</button>
+        </form>
+      <br/>
+
+      <div id="response-container"></div>
+      
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/functions.js"></script>
+
+  </body>
+</html>

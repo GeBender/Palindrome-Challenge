@@ -1,0 +1,15 @@
+{
+  "name": "Palindrome-Challenge",
+  "version": "1.0.0",
+  "description": "Simple palindrome checker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gê Bender",
+  "license": "http://www.opensource.org/licenses/mit-license.php MIT License",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
