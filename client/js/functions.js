@@ -20,4 +20,5 @@ $(document).ready(function(){
 
 function showMessage(message, alertClass) {
 	$('#response-container').html('<div class="alert ' + alertClass + '">' + message + '</div>');
+	$('#myModal').modal('toggle');
 }
